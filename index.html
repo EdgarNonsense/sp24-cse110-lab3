@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
     <title> Ideations page for 4/16/2024</title>
     <meta charset = "UTF-8">
     <meta name = "description" content = "Ideation Pages">
@@ -32,13 +37,13 @@
     <p><strong>Today's Agenda:</strong> Decide upon who is the biggest baddest evil of all time.<br>
     Last Meeting: <em>Created a list of the baddies </em></p>
        <p> <b>This Week:</b> <i>reminder to rank them based off their evil natures.</i></p>    
-    <p><span style="color:red;font-weight:bold">No additional comments added.</span></p>
+    <p class = "positioned"><span style="color:red;font-weight:bold">No additional comments added.</span></p>
     <img src = "https://lh3.googleusercontent.com/pw/AP1GczNQSPxOsK3iFUbKYEGDD4AgJSuqwckodzeHExNJ0WBB8j9Z2N_otEiRnLRurchOdeFKKwC5aVIX7YaJ8VpL_IqdYpQ0rlqjmle-VmjQwUpN7MVG8NtKAQFpNoNRKpHZ16CgXkJCh2N420xSlpyW1_uGXCabbZsI6MBcotdrDEdtoCpr1crZJqVibQkLbJShjwIGbysy-dGvTxIEEWwh971_ny2Eh-UKX2WqxLWTEaiWqgMX8gHX9DbwOzKoA5PGGued_i86lsvQDOZsiFbU9mI16OEA19on-N89K3HKAAVV7_dp8hNOXJrzfjQILNdNdC6FgaMrOWE4GjAThK9xWCEmJk1ATGt9Sv5BSFKqwaUcSencqCWVQDCxu3J719idsDweOpFCAnbTOA6kNgyc8c7a1aoDY5DBFYs54PvfYweS8Bmv1mm-uaI04NHdJtFFYlTJaiQBOUriA7BmC46R6Qgn3hpFk7KqZB0-oDBMTq31uCVAPkMRTYZ9wj6GZs-15Xb2KAnX55yKD7YevhLzZBi6vagfRJ4FoIBvr1H0g1_ak_96aHbD5oq_ujVYMB4Ugwh8VO_SOtzOm6p_-jXZWde8MZ0eXvgx6ehSagWSL_-Ka3gSSNy_JR4wlCYsAZDceSL6uhbVyTjr5PMEJ4TW2J1WpejUep_BiL_YQyjVRUltUDdC0OE8EdO1xucKVK3HH1a_z5Sf66rKTcG9tQD2_S1No_ag-N_m_7yjKlGmeEKWKw54i60MSRF-YmLrx5yUZCylj9sBoz_S61EEX5n-nFcrgFC39-OfCQ9rmp6HRi2oN9ff_KmQ_nXuOqqwog7eqD2QjR30rSoqqHPRt9HY-fRA0EQd8YCi1wObis7q5epk2Rt4R0HZ9uRwMyrqDGR1O7Mt97UhiJ5lm2d4K2UhDehiIBF9y1V897_ObLLAB8HfzvrgdxU-4MLmNa0NHw7lObYhzVBypMzpnRWsYf6DOeFJYl9Uq3S3E5YaWTvCp99G_peKnbpPOcyBZNVJtt2iilBAyj5Eq53pT5oFovTB4fgv06f-AsXfhI0piGcGLipvYGU7cYmlKBnHL9EmP_WkYS-E1liug-gQ=w960-h720-s-no-gm?authuser=0" alt = "The four contestants">
 </section>
 <details>
     <summary> Hatsune Miku </summary>
     <video width="320" height="240" autoplay><source src="roll.mp4.mp4" type="video/mp4"></video>
-    <ul> 
+    <ul class = "list"> 
         <li> Rick Roll </li>
         <li> Unconventional </li>
         <li> Scares the masses </li>
@@ -55,7 +60,7 @@
 </details>
 <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">True fear lies here.</a>
 
-<h3> Complaint Form</h3>
+<h3><span class="block"> Complaint Form</span></h3>
 
 <form action ="/user_input/text.php">   
     
@@ -71,7 +76,7 @@
 <h3> Voting Form</h3>
 <form>
     <fieldset>
-        <legend> Pick your evil being</legend>
+        <legend> <div class="box" id="one">Pick your evil being</div></legend>
 
         <input type="radio" id="Frankenstein" name="monster" value="F" />
     <label for="Frankenstein">Frankenstein's Monster</label><br />
@@ -89,7 +94,7 @@
 
 <h3> Voting form V2</h3>
 <form action = "/user_input/text.php" method="get">
-    <label for="creepy-monster">Creepy Monster</label>
+    <label for="creepy-monster"><div class ="container">Creepy Monster</div></label>
     <input list="creepy-monsters" name="monster" id="creepy-monster">
     <datalist id ="creepy-monsters">
         <option value ="Frankenstein's Monster"></option>
@@ -99,7 +104,9 @@
     </datalist>
     <input type="submit">
 </form>
-
+<p class="example">
+    This text <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">contains a link</a>.
+  </p>
 <h3> Voting form V3</h3>
 <label for="monsters">Monsters</label>
 <select name="monsters" id="monsters">
