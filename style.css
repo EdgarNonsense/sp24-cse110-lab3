@@ -25,7 +25,7 @@ h1, h3{ /* element, selector list */
 h2 {
     font-family: "Jersey 10", sans-serif;
     max-width: 300px;
-    max-height: 300 px;
+    max-height: 150px;
     color: gray;
     text-decoration: underline;
     text-align: center;
