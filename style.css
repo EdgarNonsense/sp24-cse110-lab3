@@ -24,7 +24,7 @@ h1, h3{ /* element, selector list */
 }
 h2 {
     font-family: "Jersey 10", sans-serif;
-    max-width: 300px;
+    max-width: 300px; 
     max-height: 150px;
     color: gray;
     text-decoration: underline;
@@ -54,7 +54,7 @@ h2 + h3 ~ h1{
     color:blanchedalmond;
 }
 ol:has(+li){
-    color:rebeccapurple;
+    color:rgb(53, 54, 116);
 }
 
 p.intro {
@@ -72,7 +72,7 @@ p.intro {
 
     .block legend{ /* decendant combiantor*/
     border: 5px solid rgb(128, 216, 132);
-    background-color: rgb(51, 29, 110);
+    background-color: rgb(78, 150, 184);
     padding: 23px;
     margin: 50px;
     width: 275px;
