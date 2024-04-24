@@ -56,6 +56,10 @@ h2 + h3 ~ h1{
 ol:has(+li){
     color:rebeccapurple;
 }
+
+p.intro {
+  background-color: yellow;
+}
 @counter-style fallback-example {
     system: fixed;
     symbols: "\24B6" "\24B7" "\24B8";
