@@ -12,7 +12,7 @@
     border: 5px solid yellow;
 }
 body{
-    background-color: purple;
+    background-color: rgb(78, 146, 167);
     height: calc(40% + 200px);
 }
 h1, h3{ /* element, selector list */
